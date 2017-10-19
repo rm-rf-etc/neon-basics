@@ -29,7 +29,7 @@ use neon::js::{
 	let () = some_expression();
 
 	// For example,
-	let () = JsBoolean::new()
+	let () = JsNull::new()
 */
 
 // Use _ to squelch warnings, or any name starting with _
