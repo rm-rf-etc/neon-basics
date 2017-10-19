@@ -1,0 +1,17 @@
+{
+  "name": "test-neon",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "Rob Christian <rm.rf.etc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.1.20"
+  },
+  "scripts": {
+    "install": "neon build"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}

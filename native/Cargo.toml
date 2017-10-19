@@ -1,0 +1,16 @@
+[package]
+name = "neon-test"
+version = "0.1.0"
+authors = ["Rob Christian <rm.rf.etc@gmail.com>"]
+license = "MIT"
+build = "build.rs"
+
+[lib]
+name = "neon_test"
+crate-type = ["dylib"]
+
+[build-dependencies]
+neon-build = "0.1.20"
+
+[dependencies]
+neon = "0.1.20"
