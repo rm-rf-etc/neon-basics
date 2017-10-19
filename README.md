@@ -5,7 +5,7 @@
 
 [native/src/lib.rs](/native/src/lib.rs)
 
-```javascript
+```rust
 #[macro_use]
 extern crate neon;
 
