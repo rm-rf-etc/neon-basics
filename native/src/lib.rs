@@ -16,8 +16,12 @@ use neon::js::{
 
 
 /*
-	// If you need to inspect the value of an expression:
-	let () = JsBoolean::new();
+	// If you need to inspect the value of an expression,
+	// use the following trick:
+	let () = some_expression();
+
+	// For example,
+	let () = JsBoolean::new()
 */
 
 // Use _ to squelch warnings, or any name starting with _
